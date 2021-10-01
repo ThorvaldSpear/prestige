@@ -109,6 +109,6 @@ window.addEventListener("load",function () {
 	setInterval(function () {
 		update();
 		draw();
-	}, 16);
+	}, 10);
 	console.log("interval loaded");
 });
