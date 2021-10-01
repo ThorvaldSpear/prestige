@@ -110,6 +110,6 @@ window.addEventListener("load",function () {
 	setInterval(function () {
 		update();
 		draw();
-	}, 10);
+	}, 1000);
 	console.log("interval loaded");
 });
