@@ -31,7 +31,7 @@ function getPPBonus() {
 function getGain() {
 	var gain = 1;
 	data.prestiges.forEach(function (el) {
-		gain *= 1+el;
+		gain *= 2+el;
 	});
 	return gain*metaBonus*getPPBonus();
 }
