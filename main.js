@@ -82,6 +82,7 @@ function draw() {
 		document.getElementById("tier"+(i+1)+"mul").innerHTML = "x"+(el+1);
 		if (canActivatePrestige(i)) {
 			document.getElementById("tier"+(i+1)+"btn").disabled = false;
+			activatePrestige(i);
 		} else {
 			document.getElementById("tier"+(i+1)+"btn").disabled = true;
 		}
