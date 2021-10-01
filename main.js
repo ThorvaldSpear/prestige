@@ -3,7 +3,7 @@ var data = {
 	prestiges: [0,0,0,0,0,0,0,0,0,0]
 };
 
-var metaBonus = 10*3.14*6.28*9.42;
+var metaBonus = 1;
 
 function resetCheck() {
     if (localStorage.RESET_1) {
